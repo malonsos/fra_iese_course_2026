@@ -1,0 +1,19 @@
+name: fra_iese_2026
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - jupyter
+  - jupyterlab
+  - ipykernel
+  - nbformat
+  - nbconvert
+  - pip:
+      - tensorflow
+      - torch
+      - transformers
